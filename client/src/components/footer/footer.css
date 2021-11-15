@@ -1,0 +1,17 @@
+.copyright{
+    width: 100%;
+    padding: 14px 0;
+    background-color: #000;
+    color: white;
+    text-align: center;
+    font-size: 11px;
+    border-top-right-radius: 12px;
+    position: static;
+    bottom: 0;
+}
+.colored a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #0ff;
+    margin: 2.5px;
+}
