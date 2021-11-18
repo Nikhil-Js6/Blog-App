@@ -1,0 +1,68 @@
+.register{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+                 rgba(255, 255, 255, 0.9),
+                 rgba(255, 255, 255, 0.9)
+                ),
+        url("https://cdn.shopify.com/s/files/1/0100/6082/files/glacierbg.jpg?v=1560359164");
+    background-size: cover;
+    background-repeat: no-repeat;
+    .registerTitle{
+        font-size: 40px;
+        color: #333;
+    }
+    .registerForm{
+        width: 300px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        >label{
+            margin: 10px 0;
+        }
+        >input{
+            padding: 10px;
+            border: none;
+            border-bottom: 1.5px solid #111;
+            border-right: 1.5px solid #111;
+            border-radius: 10px;
+            background-color: rgba(255, 255, 255, 0.5);
+            &:focus{
+                outline: none;
+            }
+        }
+        .registerButton{
+            margin-top: 20px;
+            background-color: rgb(1, 156, 156);
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            padding: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all .23s ease-in-out;
+            &:hover{
+                background-color: rgb(58, 212, 197);
+            }
+        }
+    }
+    .registerLoginButton{
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        background-color: lightcoral;
+        color: #fff;
+        border: none;
+        border-radius: 10px;
+        padding: 8px 14px;
+        font-size: 14px;
+        cursor: pointer;
+        transition: all .1s ease-in-out;
+        &:hover{
+            background-color: rgb(238, 92, 92);
+        }
+    }
+}
